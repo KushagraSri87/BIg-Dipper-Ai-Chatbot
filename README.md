@@ -126,12 +126,7 @@ Never commit your `.env` file. It is listed in `.gitignore`.
 - **Frontend (Vercel):** root directory `Frontend`, with `VITE_API_URL` set to the Render backend URL.
 - **Database:** MongoDB Atlas, with network access allowed for the hosting provider.
 
-## Team
 
-Built by **The Akatsuki**:
-
-- **Kushagra Srivastava** ([@KushagraSri87](https://github.com/KushagraSri87)): [your role, e.g. full-stack development, deployment]
-- **[Friend's name]** ([@their-github-username](https://github.com/their-github-username)): [their role]
 
 ## Future Improvements
 
