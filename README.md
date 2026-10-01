@@ -3,7 +3,7 @@
 **Your Thinking Partner** — a full-stack AI chatbot with user accounts, saved conversations, and fast responses powered by Groq.
 
 **Live demo:** https://big-dipper-ai-chatbot.vercel.app
-**Backend API:** https://big-dipper-ai-chatbot.onrender.com
+
 
 > The backend runs on a free tier and sleeps when idle. The first request after a quiet period can take around 50 seconds to respond.
 
