@@ -1,0 +1,143 @@
+.authWrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--bg-app);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.authHero {
+    text-align: center;
+}
+
+.authHeading {
+    font-family: "Copernicus", "Georgia", "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin: 0;
+    line-height: 1.15;
+}
+
+.authHeading .highlight {
+    background: linear-gradient(180deg, transparent 62%, rgba(51, 156, 255, 0.45) 62%);
+    padding: 0 0.15em;
+    color: var(--text-primary);
+}
+
+.authSubheading {
+    font-family: "Copernicus", "Georgia", "Times New Roman", serif;
+    font-size: 1.05rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+    margin: 0.6rem 0 0 0;
+    letter-spacing: 0.02em;
+}
+
+.authBox {
+    width: 320px;
+    background-color: var(--bg-elevated);
+    padding: 2rem;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    box-shadow: 0 4px 24px var(--shadow-color);
+}
+
+.authBox h2 {
+    text-align: center;
+    margin: 0 0 0.5rem 0;
+    font-size: 1.3rem;
+}
+
+.authBox input {
+    background-color: var(--bg-input);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 0.7rem 0.9rem;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    outline: none;
+}
+
+.authBox input:focus {
+    border-color: var(--text-secondary);
+}
+
+.authBox button {
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+    border: none;
+    padding: 0.7rem;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 0.3rem;
+}
+
+.authBox button:disabled {
+    opacity: 0.6;
+    cursor: default;
+}
+
+.authError {
+    color: var(--danger);
+    font-size: 0.85rem;
+    margin: 0;
+    text-align: center;
+}
+
+.authSwitch {
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+.authSwitch span {
+    color: var(--text-primary);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.authDivider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    margin: 0.2rem 0;
+}
+
+.authDivider::before,
+.authDivider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid var(--border-divider);
+}
+
+.authDivider span {
+    padding: 0 0.75rem;
+}
+
+.guestButton {
+    background-color: transparent;
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    padding: 0.7rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.guestButton:hover {
+    background-color: var(--bg-hover);
+    border-color: var(--text-secondary);
+}
