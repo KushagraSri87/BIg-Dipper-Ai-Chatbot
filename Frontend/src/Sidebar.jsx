@@ -107,7 +107,7 @@ function Sidebar() {
             </ul>
  
             <div className="sign">
-                <p>By The Akatsuki☁️</p>
+                <p>By Kushagra</p>
             </div>
         </section>
     );
